@@ -5,7 +5,5 @@
 #include <WS2tcpip.h>
 #include <WinSock2.h>
 
-//192.168.160.128
-
 const char* ip = "192.168.160.128";
 const int port = 12345;

@@ -27,6 +27,7 @@ int main(int argc, char* argv[])
 	}
 	while (true)
 	{
+		std::cout << "connect successful!" << buf << std::endl;
 		std::cin >> buf;
 		send(cilentfd, buf, sizeof(buf), NULL);
 		recv(cilentfd, buf, sizeof(buf), NULL);
